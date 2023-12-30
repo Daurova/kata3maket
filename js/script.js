@@ -14,5 +14,4 @@ buttonShow.classList.toggle('button-show-hide')
 arrow.classList.toggle('show-arrow')
 arrow.classList.toggle('hide-arrow')
 }
-
 buttonShow.addEventListener('click', showAll);

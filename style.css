@@ -1,0 +1,287 @@
+.swiper-slide {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.brand-list {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+}
+
+.swiper-wrapper {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.logo--lenovo {
+    background-image: url(./img/Lenovo.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--samsung {
+    background-image: url(./img/samsung.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--apple {
+    background-image: url(./img/apple.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--viewsonic {
+    background-image: url(./img/viewsonic.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--bosch {
+    background-image: url(./img/bosch.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--hp {
+    background-image: url(./img/hp.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--acer {
+    background-image: url(./img/acer.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo--sony {
+    background-image: url(./img/Sony.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 72px;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.logo-button-go {
+    background-image: url(./img/go.svg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.logo-button-go:hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.list-no-bullit {
+    list-style: none;
+}
+
+.brand-names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    max-height: 288px;
+    overflow: hidden;
+}
+
+.brands {
+    display: none
+}
+
+
+
+@media(min-width:768px) {
+
+    .swiper {
+        display: none;
+    }
+
+    .brands {
+        display: initial;
+    }
+
+
+    .brand-list {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: white;
+    }
+
+    .list-no-bullit {
+        list-style: none;
+    }
+
+    .brand-names {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        align-content: flex-start;
+        max-height: 220px;
+        overflow: hidden;
+        padding-left: 0px;
+        margin-left: 0;
+
+    }
+
+    .brands {
+        overflow: hidden;
+
+    }
+
+}
+
+.full {
+    min-height: 360px;
+}
+
+.button-show-hide {
+    .show-to-hide {
+        display: visible;
+    }
+
+    .hide-to-show {
+        display: none
+    }
+}
+
+.show-hide {
+    .show-to-hide {
+        display: none;
+    }
+
+    .hide-to-show {
+        display: visible;
+    }
+}
+
+.show-arrow {
+    background-image: url(./img/showarrow.svg);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 7.41px;
+    height: 10.29px;
+    border: none;
+    padding-top: 4px;
+
+}
+
+.hide-arrow {
+    background-image: url(./img/hidearrow.svg);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 7.41px;
+    height: 10.29px;
+    border: none;
+    padding-top: 4px;
+}
+
+.show-hide-arrow:hover {
+    cursor: pointer;
+}
+
+.button-alignment {
+    display: flex;
+    margin-left: 45px;
+}
+
+#hide {
+    border: none;
+    background-color: transparent;
+}
+
+#hide:hover {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "TTLakes";
+    src: local("TTLakes"),
+        local("TTLakes"),
+        url("TTLakes/TTLakes-Medium.woff") format("woff"),
+        url("TTLakes/TTLakes-Medium.ttf") format("ttf");
+    font-weight: normal;
+}
+
+body {
+    font-family: TTLakes;
+    background-color: #F8F8F8;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+h1 {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+.show {
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: linear-gradient(to right, hsl(0, 11%, 96%), white);
+
+}

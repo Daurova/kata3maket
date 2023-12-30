@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="style.css">
+  <title>3maket</title>
+</head>
+<body>
+  <header>
+    <h1>ремонт техники различных брендов</h1>
+  </header>
+
+  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+     <div class="swiper-slide">
+      <div class="brand-list">
+        <div class="logo--lenovo"></div>
+        <button class="logo-button-go"></button>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--samsung"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--apple"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--viewsonic"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--bosch"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--hp"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--acer"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--sony"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    <div class="swiper-slide">
+      <div class="logo--lenovo"></div>
+      <button class="logo-button-go"></button>
+    </div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+ </div>
+
+<section class="brands">
+<ul class="brand-names list-no-bullit">
+  <li>
+    <div class="brand-list">
+      <div class="logo--lenovo"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--samsung"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--apple"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--viewsonic"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--bosch"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--hp"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--acer"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--sony"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--lenovo"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--samsung"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+  <li>
+    <div class="brand-list">
+      <div class="logo--apple"></div>
+      <button class="logo-button-go"></button>
+    </div>
+  </li>
+
+</ul>
+<div class="show">
+  <label class="button-alignment">
+    <div class="show-hide-arrow show-arrow"></div>
+    <button class="button-show-hide" id="hide">
+      <span class = 'show-to-hide'>Показать все</span>
+      <span class = "hide-to-show">Скрыть</span>
+    </button>
+  </label>
+</div>
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  //--direction:
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+<script src="/js/script.js"></script>
+</body>
+</html>
